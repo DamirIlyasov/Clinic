@@ -41,6 +41,7 @@ public class ListOfServices extends HttpServlet {
                         a.setCost(Integer.parseInt(resultSet.getString("cost")));
                         a.setName(resultSet.getString("name"));
                         a.setDescription(resultSet.getString("description"));
+                        a.setImage(resultSet.getString("image"));
                         services.add(a);
                         a.setNumber();
                     }
@@ -87,6 +88,7 @@ public class ListOfServices extends HttpServlet {
                         a.setCost(Integer.parseInt(resultSet.getString("cost")));
                         a.setName(resultSet.getString("name"));
                         a.setDescription(resultSet.getString("description"));
+                        a.setImage(resultSet.getString("image"));
                         services.add(a);
                         a.setNumber();
                     }
@@ -126,6 +128,7 @@ public class ListOfServices extends HttpServlet {
                                 a.setCost(Integer.parseInt(resultSet.getString("cost")));
                                 a.setName(resultSet.getString("name"));
                                 a.setDescription(resultSet.getString("description"));
+                                a.setImage(resultSet.getString("image"));
                                 services.add(a);
                                 a.setNumber();
                             }
@@ -166,6 +169,7 @@ public class ListOfServices extends HttpServlet {
                             a.setCost(Integer.parseInt(resultSet.getString("cost")));
                             a.setName(resultSet.getString("name"));
                             a.setDescription(resultSet.getString("description"));
+                            a.setImage(resultSet.getString("image"));
                             services.add(a);
                             a.setNumber();
                         }
@@ -201,6 +205,7 @@ public class ListOfServices extends HttpServlet {
                         a.setCost(Integer.parseInt(resultSet.getString("cost")));
                         a.setName(resultSet.getString("name"));
                         a.setDescription(resultSet.getString("description"));
+                        a.setImage(resultSet.getString("image"));
                         services.add(a);
                         a.setNumber();
                     }

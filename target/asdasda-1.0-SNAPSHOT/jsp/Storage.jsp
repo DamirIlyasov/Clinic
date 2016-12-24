@@ -17,6 +17,7 @@
     <p>Корзина пуста.</p>
 </c:if>
 <c:forEach items="${storage}" var="item">
+    <img src="${item.getImage()}" height="250" width="250">
     <p>${item.getName()}. Цена: ${item.getCost()}
     <form action="/removefromstorage" method="post"><button type="submit" value="${item.getNumber()}" name="number">Удалить из корзины</button> </form> </p>
 </c:forEach>

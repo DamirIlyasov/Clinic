@@ -14,13 +14,23 @@
 <body>
 <p>Добро пожаловать, гость.</p>
 <p>Войдите или зарегистрируйтесь для доступа к услугам.</p>
-<form action="/registration" method="post"><button type="submit">Зарегистрироваться</button> </form>
-<form action="/login" method="post"><button type="submit">Войти</button> </form>
+<form action="/registration" method="post">
+    <button type="submit">Зарегистрироваться</button>
+</form>
+<form action="/login" method="post">
+    <button type="submit">Войти</button>
+</form>
 <p>Список услуг:</p>
 <c:forEach items="${services}" var="item">
-<p>Услуга: ${item.getName()} <br>
-    Описание: ${item.getDescription()} <br>
-    Цена: ${item.getCost()}
+    <img src="${item.getImage()}" height="250" width="250">
+    <p>Услуга: ${item.getName()} <br>
+        Цена: ${item.getCost()}
+    <form action="/servicedescription" method="post">
+        <button type="submit" name="description" value="${item.getDescription()}">Описание</button>
+    </form>
+    <form action="/comments" method="post">
+        <button type="submit"name="service" value="${item.getName()}">Комментарии</button>
+    </form>
 </c:forEach>
 </body>
 </html>

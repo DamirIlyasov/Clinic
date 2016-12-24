@@ -124,4 +124,63 @@
         <servlet-name>CleanStorage</servlet-name>
         <url-pattern>/cleanstorage</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>EditService</servlet-name>
+        <servlet-class>Servlets.EditService</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditService</servlet-name>
+        <url-pattern>/editservice</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>EditServiceHelper</servlet-name>
+        <servlet-class>Servlets.EditServiceHelper</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditServiceHelper</servlet-name>
+        <url-pattern>/editservicehelper</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServiceDescription</servlet-name>
+        <servlet-class>Servlets.ServiceDescription</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServiceDescription</servlet-name>
+        <url-pattern>/servicedescription</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Comments</servlet-name>
+        <servlet-class>Servlets.Comments</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Comments</servlet-name>
+        <url-pattern>/comments</url-pattern>
+    </servlet-mapping>
+    
+
+    <servlet>
+        <servlet-name>AddComment</servlet-name>
+        <servlet-class>Servlets.AddComment</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddComment</servlet-name>
+        <url-pattern>/addcomment</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AddCommentHelper</servlet-name>
+        <servlet-class>Servlets.AddCommentHelper</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCommentHelper</servlet-name>
+        <url-pattern>/addcommenthelper</url-pattern>
+    </servlet-mapping>
 </web-app>

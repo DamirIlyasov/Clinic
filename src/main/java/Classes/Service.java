@@ -12,6 +12,16 @@ public class Service {
     int cost;
     int number;
     String description;
+    String image;
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+
+        this.image = image;
+    }
 
     public void setDescription(String description){
         this.description = description;
