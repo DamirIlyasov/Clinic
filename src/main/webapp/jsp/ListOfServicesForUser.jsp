@@ -1,4 +1,4 @@
-<%@ page import="Classes.User" %>
+<%@ page import="com.ilyasov.Classes.User" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.

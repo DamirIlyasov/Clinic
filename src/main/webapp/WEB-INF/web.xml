@@ -8,7 +8,7 @@
     </session-config>
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>Servlets.LoginServlet</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -18,7 +18,7 @@
 
     <servlet>
         <servlet-name>RegistrationServlet</servlet-name>
-        <servlet-class>Servlets.RegistrationServlet</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.RegistrationServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>RegistrationServlet</servlet-name>
@@ -28,7 +28,7 @@
 
     <servlet>
         <servlet-name>ListOfServices</servlet-name>
-        <servlet-class>Servlets.ListOfServices</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.ListOfServices</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ListOfServices</servlet-name>
@@ -38,7 +38,7 @@
 
     <servlet>
         <servlet-name>AddingNewUser</servlet-name>
-        <servlet-class>Servlets.AddingNewUser</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.AddingNewUser</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddingNewUser</servlet-name>
@@ -48,7 +48,7 @@
 
     <servlet>
         <servlet-name>LoginCheck</servlet-name>
-        <servlet-class>Servlets.LoginCheck</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.LoginCheck</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginCheck</servlet-name>
@@ -58,7 +58,7 @@
 
     <servlet>
         <servlet-name>LogOut</servlet-name>
-        <servlet-class>Servlets.LogOut</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.LogOut</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LogOut</servlet-name>
@@ -68,7 +68,7 @@
     
     <servlet>
         <servlet-name>AddingNewService</servlet-name>
-        <servlet-class>Servlets.AddingNewService</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.AddingNewService</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddingNewService</servlet-name>
@@ -78,7 +78,7 @@
     
     <servlet>
         <servlet-name>RemoveService</servlet-name>
-        <servlet-class>Servlets.RemoveService</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.RemoveService</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>RemoveService</servlet-name>
@@ -88,7 +88,7 @@
 
     <servlet>
         <servlet-name>AddToStorage</servlet-name>
-        <servlet-class>Servlets.AddToStorage</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.AddToStorage</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddToStorage</servlet-name>
@@ -98,7 +98,7 @@
 
     <servlet>
         <servlet-name>Storage</servlet-name>
-        <servlet-class>Servlets.Storage</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.Storage</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Storage</servlet-name>
@@ -108,7 +108,7 @@
 
     <servlet>
         <servlet-name>RemoveFromStorage</servlet-name>
-        <servlet-class>Servlets.RemoveFromStorage</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.RemoveFromStorage</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>RemoveFromStorage</servlet-name>
@@ -118,7 +118,7 @@
 
     <servlet>
         <servlet-name>CleanStorage</servlet-name>
-        <servlet-class>Servlets.CleanStorage</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.CleanStorage</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CleanStorage</servlet-name>
@@ -128,7 +128,7 @@
 
     <servlet>
         <servlet-name>EditService</servlet-name>
-        <servlet-class>Servlets.EditService</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.EditService</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EditService</servlet-name>
@@ -138,7 +138,7 @@
 
     <servlet>
         <servlet-name>EditServiceHelper</servlet-name>
-        <servlet-class>Servlets.EditServiceHelper</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.EditServiceHelper</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EditServiceHelper</servlet-name>
@@ -147,7 +147,7 @@
 
     <servlet>
         <servlet-name>ServiceDescription</servlet-name>
-        <servlet-class>Servlets.ServiceDescription</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.ServiceDescription</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ServiceDescription</servlet-name>
@@ -157,7 +157,7 @@
 
     <servlet>
         <servlet-name>Comments</servlet-name>
-        <servlet-class>Servlets.Comments</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.Comments</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Comments</servlet-name>
@@ -167,7 +167,7 @@
 
     <servlet>
         <servlet-name>AddComment</servlet-name>
-        <servlet-class>Servlets.AddComment</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.AddComment</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddComment</servlet-name>
@@ -177,7 +177,7 @@
 
     <servlet>
         <servlet-name>AddCommentHelper</servlet-name>
-        <servlet-class>Servlets.AddCommentHelper</servlet-class>
+        <servlet-class>com.ilyasov.Servlets.AddCommentHelper</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AddCommentHelper</servlet-name>

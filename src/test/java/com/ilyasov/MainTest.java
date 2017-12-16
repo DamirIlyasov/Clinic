@@ -1,10 +1,12 @@
+package com.ilyasov;
+
 import org.junit.Assert;
 import org.junit.Test;
 
 /**
  * @author Damir Ilyasov
  */
-public class Tests {
+public class MainTest {
   @Test
   public void loginTest(){
     Assert.assertTrue(true);
