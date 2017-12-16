@@ -1,9 +1,17 @@
+CREATE TABLE comments
+(
+    author VARCHAR(30),
+    comment VARCHAR(300),
+    service VARCHAR(50),
+    created_at DATE
+);
 CREATE TABLE services
 (
     id INTEGER PRIMARY KEY NOT NULL,
     name VARCHAR(300),
     cost INTEGER,
-    description VARCHAR(500)
+    description VARCHAR(500),
+    image VARCHAR(100)
 );
 CREATE TABLE users
 (
@@ -16,7 +24,5 @@ CREATE TABLE users
     age VARCHAR(20)
 );
 
-INSERT INTO public.services (id, name, cost, description) VALUES (53, 'Osmotr', 500, 'Pervichniy osmotr');
-INSERT INTO public.services (id, name, cost, description) VALUES (54, 'Udalenie', 1000, 'Bezboleznennoe udalenie zuba');
 
 INSERT INTO public.users (id, firstname, lastname, password, phonenumber, email, age) VALUES (1, 'Admin', 'Admin', 'zub', '8-917-272-00-62', 'elmira@gmail.com', '40');
